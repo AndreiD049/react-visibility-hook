@@ -1,5 +1,5 @@
 {
-  "name": "use-visibility",
+  "name": "react-visibility-hook",
   "version": "1.0.0",
   "description": "React hook to use the Visbility API.",
   "main": "./dist/index.js",
@@ -9,7 +9,11 @@
     "dev": "rollup -c --watch",
     "deploy": "npm run build & npm publish"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreiD049/react-visibility-hook"
+  },
+  "author": "Andrei Dimitrascu",
   "license": "ISC",
   "peerDependencies": {
     "react": "^17.0.2",
